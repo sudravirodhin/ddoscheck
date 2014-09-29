@@ -5,7 +5,7 @@
 # Use with watch for basic system monitoring.
 
 # Set exempt IPs below
-LOCAL_IPS='0.0.0.0|8.8.8.8|50.7.254'
+LOCAL_IPS='0.0.0.0|8.8.8.8'
 
 if [ -z "$1"  ]
         then
