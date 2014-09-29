@@ -2,7 +2,8 @@
 # Author: Gregory Adam Conroy
 # Description: Shows list (save exceptions) of currently connected IP addresses and the quantity of connections per IP.
 # Alternatively shows connections by port for IP if provided as first argument.
-# Use with watch for basic system monitoring.
+# Use with watch for basic system monitoring. 
+# Assuming you save this file as /bin/ddoscheck, example usage follows: `watch -n 1 "ddoscheck"`
 
 # Set exempt IPs below
 LOCAL_IPS='0.0.0.0|8.8.8.8'
